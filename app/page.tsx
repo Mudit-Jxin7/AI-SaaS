@@ -20,13 +20,15 @@ const LandingPage = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        pretitle="Visual Vivo Benefits"
+        title=" Why should you use it"
         align={""}
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Our AI SaaS image editor offers unparalleled convenience and efficiency
+        by harnessing the power of artificial intelligence. With seamless
+        integration and intuitive features, it streamlines the editing process,
+        saving you time and effort. Stay ahead of the curve with cutting-edge
+        technology that enhances your creativity and productivity effortlessly.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -36,8 +38,6 @@ const LandingPage = () => {
         align=""
       >
         This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video />
       <SectionTitle
@@ -45,8 +45,8 @@ const LandingPage = () => {
         title="Here's what our customers said"
         align=""
       >
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Look at some of our customer testimonials to see how they feel about our
+        product.
       </SectionTitle>
       <Testimonials />
       <Faq />

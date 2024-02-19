@@ -12,44 +12,44 @@ const Testimonials = () => {
     <Container className="">
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-lg sm:text-2xl leading-normal ">
+              Unparalleled efficiency and stunning results! This AI SaaS image
+              editing tool has transformed the way we create visuals for our
+              brand. Highly recommended!
             </p>
 
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
+            <Avatar image={userOneImg} name="Sarah Steiner" title="VP Sales " />
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-lg sm:text-2xl leading-normal ">
+              A game-changer in the world of image editing! This AI SaaS
+              platform has saved us countless hours while consistently
+              delivering exceptional quality edits. A must-have for any creative
+              team
             </p>
 
             <Avatar
               image={userTwoImg}
               name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              title="Lead marketer "
             />
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-lg sm:text-2xl leading-normal ">
+              Impressive capabilities and user-friendly interface! With this AI
+              SaaS image editing solution, we've taken our visual content to the
+              next level effortlessly. Couldn't be happier with the results!
             </p>
 
             <Avatar
               image={userThreeImg}
               name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              title="Co-founder "
             />
           </div>
         </div>

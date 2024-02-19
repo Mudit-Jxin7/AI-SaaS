@@ -272,7 +272,7 @@ const PopupWidget = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Web3Forms
+                            Visual Vivo
                           </a>
                         </span>
                       </p>

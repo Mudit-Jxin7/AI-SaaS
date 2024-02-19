@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <div className="relative">
       <video
-        className="w-1/2 justify-center items-center mx-auto"
+        className="w-5/6 sm:w-1/2 justify-center items-center mx-auto"
         controls
         autoPlay
         loop

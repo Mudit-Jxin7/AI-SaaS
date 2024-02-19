@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./Container";
 import heroImg from "@/public/img/hero.webp";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -9,25 +10,27 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Free Landing Page Template for startups
+              AI-Powered Image Editing SaaS
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+            <p className="py-5 text-lg sm:text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              Elevate your image editing capabilities with our AI-driven SaaS
+              solution. Empower your projects with cutting-edge technology.
+              Built with advanced AI algorithms and intuitive design, our
+              platform redefines image editing. Join the future of digital
+              creativity. Try it now.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+              <Link
+                href="/sign-up"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
               >
-                Download for Free
-              </a>
+                Signup
+              </Link>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/Mudit-Jxin7"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400"

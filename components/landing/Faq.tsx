@@ -35,22 +35,24 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "How does your AI SaaS image editing tool work?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Our platform utilizes advanced artificial intelligence algorithms to analyze and enhance images. It automatically detects elements such as lighting, color balance, and composition, and applies appropriate adjustments to improve the overall quality of the image.",
+  },
+  {
+    question: "What types of images can be edited using your platform?",
+    answer:
+      "Our AI SaaS image editing tool is versatile and can handle various types of images, including photographs, digital artwork, product images, social media graphics, and more.",
+  },
+  {
+    question: "Is my data secure when using your platform?",
+    answer:
+      "Yes, we take data security seriously. Our platform employs industry-standard encryption protocols to safeguard your data and ensure that it remains protected at all times. Additionally, we adhere to strict privacy policies to maintain the confidentiality of your information.",
   },
   {
     question: "Do you offer technical support? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "We offer comprehensive customer support to assist you with any questions or issues you may encounter while using our platform. Our team is available via email, live chat, and phone during regular business hours to provide prompt assistance and ensure a smooth user experience.",
   },
 ];
 
