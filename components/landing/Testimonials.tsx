@@ -42,8 +42,8 @@ const Testimonials = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-lg sm:text-2xl leading-normal ">
               Impressive capabilities and user-friendly interface! With this AI
-              SaaS image editing solution, we've taken our visual content to the
-              next level effortlessly. Couldn't be happier with the results!
+              SaaS image editing solution, we&apos;ve taken our visual content to the
+              next level effortlessly. Couldn&apos;t be happier with the results!
             </p>
 
             <Avatar
